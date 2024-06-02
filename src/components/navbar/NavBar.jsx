@@ -125,12 +125,12 @@ const NavBar = () => {
               Contact
             </a>
           </AnchorLink>
-          <div className="   md:inline-block lg:hidden xl:hidden  text-[#ff014f] uppercase rounded-md">
+          <div className="md:inline-block lg:hidden xl:hidden  text-[#ff014f] uppercase rounded-md">
             <a href={pdf} download>
               Download CV
             </a>
           </div>
-          <div className="btns lg:mt-24 md:inline-block lg:hidden xl:hidden mt-60 ">
+          <div className="btns lg:mt-24 md:inline-block lg:hidden xl:hidden mt-56 ">
             <p className="uppercase tracking-widest text-start font-medium mb-4 text-sm text-[#1e2125]">
               find with me
             </p>
