@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import logo from "../../assets/CopyImage.jpeg";
+import pdf from "../../assets/Suryadutta Dash.pdf";
 import { RiMenuLine } from "react-icons/ri";
 import { useEffect, useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -184,7 +185,9 @@ const NavBar = () => {
         </div>
 
         <div className="nav-btn sm:px-4 sm:py-3  md:hidden lg:inline-block hidden text-[#ff014f] uppercase rounded-md px-2 py-3">
-          <a href="#">Download CV</a>
+          <a href={pdf} download>
+            Download CV
+          </a>
         </div>
         <a
           onClick={openMenu}
