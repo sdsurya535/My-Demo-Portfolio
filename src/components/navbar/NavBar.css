@@ -24,7 +24,7 @@
     gap: 30px;
     width: 375px;
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    height: 100vh;
+    height: 100%;
     padding: 25px 38px;
     align-items: flex-start;
     z-index: 99;
