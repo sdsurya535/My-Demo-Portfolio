@@ -124,7 +124,7 @@ const NavBar = () => {
               Contact
             </a>
           </AnchorLink>
-          <div className="btns lg:mt-24 md:inline-block lg:hidden xl:hidden mt-72 ">
+          <div className="btns lg:mt-24 md:inline-block lg:hidden xl:hidden mt-60 ">
             <p className="uppercase tracking-widest text-start font-medium mb-4 text-sm text-[#1e2125]">
               find with me
             </p>
